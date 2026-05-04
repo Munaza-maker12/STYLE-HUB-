@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/heroo.webp",
+    "heading": "Elegance in Every Drape",
+    "paragraph": "Our women's collection blends timeless tradition with bold modernity. From delicate embroidery to statement silhouettes — celebrate your unique grace every day."
+  },
+  {
+    "id": 2,
+    "img": "/assets/126.jpg",
+    "heading": "Heritage Woven for Him",
+    "paragraph": "Designed for the modern man with a love for culture, our men’s wear speaks elegance, strength, and simplicity — stitched to perfection for every occasion."
+  },
+  {
+    "id": 3,
+    "img": "/assets/heroo2.jpg",
+    "heading": "Threads That Tell Your Story",
+    "paragraph": "Each outfit tells a story — of texture, heritage, and design. Dive into styles that are not just stitched, but woven with emotion and style perfection."
+  }
+]

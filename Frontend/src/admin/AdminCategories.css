@@ -1,0 +1,176 @@
+.cat-page {
+  max-width: 920px;
+  margin: 30px auto;
+  padding: 0 16px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #222;
+}
+
+.cat-header h2 {
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 14px;
+  color: #333;
+}
+
+.cat-form .form-row {
+  margin-bottom: 14px;
+}
+
+.cat-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.cat-form input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.sub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sub-item {
+  display: flex;
+  gap: 8px;
+}
+
+.sub-item input {
+  flex: 1;
+}
+
+.form-actions {
+  margin-top: 6px;
+}
+
+.btn {
+  border: 1px solid #e0e0e0;
+  background: #f7f7f7;
+  color: #222;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover { filter: brightness(0.98); }
+
+.btn-outline {
+  background: #fff;
+  border: 1px dashed #bbb;
+}
+
+.btn-light {
+  background: #f0f0f0;
+}
+
+.btn-primary {
+  background: #4caf50;
+  border-color: #4caf50;
+  color: #fff;
+}
+
+.btn-danger {
+  background: #ef4444;
+  border-color: #ef4444;
+  color: #fff;
+}
+
+.btn-sm {
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+
+.table-wrap {
+  width: 100%;
+  overflow-x: auto; 
+}
+
+.cat-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px; 
+}
+
+.cat-table th, .cat-table td {
+  padding: 10px 10px;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+
+.cat-table th {
+  text-align: left;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  color: #666;
+}
+
+.cat-name {
+  font-weight: 600;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.badge {
+  background: #eef8ee;
+  color: #256029;
+  border: 1px solid #cde9cf;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 999px;
+}
+
+.muted {
+  color: #888;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 7px 9px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.cat-loading, .cat-error {
+  text-align: center;
+  margin: 40px 0;
+  color: #555;
+}
+
+@media (max-width: 640px) {
+  .card { padding: 14px; }
+  .btn { padding: 7px 10px; }
+  .btn-sm { padding: 5px 8px; }
+}

@@ -1,0 +1,16 @@
+ .ui_button {
+  width: 100%;
+  padding: 0.8rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(71, 144, 180);
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.ui_button:hover {
+  background-color: #0e3dc9;
+}

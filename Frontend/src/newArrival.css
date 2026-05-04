@@ -1,0 +1,135 @@
+.new-arrival {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fafafa;
+  font-family: "Arial", sans-serif;
+}
+
+/* Header: title center, filter top-right */
+.arrival-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.arrival-title {
+  text-align: center;
+}
+
+.arrival-title h2 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.arrival-title p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+}
+
+.arrival-filter {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrival-filter:hover {
+  border-color: #999;
+}
+
+/* GRID */
+.arrival-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* PRODUCT CARD */
+.arrival-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* PRODUCT IMAGE */
+.arrival-item img.product-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* PRODUCT NAME */
+.product-info {
+  font-size: 1rem;
+  margin: 10px 0 5px;
+  color: #000000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* PRICE */
+.price {
+  font-weight: bold;
+  color: #ff0066;
+  text-decoration: underline;
+}
+
+/* HOVER */
+.arrival-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .arrival-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .arrival-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .arrival-item img.product-image {
+    height: 220px;
+  }
+
+  .arrival-filter {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .arrival-header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .arrival-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .arrival-item img.product-image {
+    height: 200px;
+  }
+}

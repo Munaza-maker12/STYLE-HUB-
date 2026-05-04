@@ -1,0 +1,109 @@
+.back-button {
+  background-color: #111; 
+  color: #fff;          
+  border: none;
+  padding: 105px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.back-button:hover {
+  background-color: #e50914; 
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.shipping-container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 40px 30px;
+    background: linear-gradient(135deg, #ffffff, #f9fafb);
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    animation: fadeSlideIn 0.8s ease-out;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  @keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .shipping-container:hover {
+    box-shadow: 0 14px 45px rgba(0, 0, 0, 0.12);
+  }
+  
+  .shipping-container h1 {
+    font-size: 2.4rem;
+    margin-bottom: 24px;
+    color: #111827;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .shipping-container h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 3px;
+    background: linear-gradient(90deg, #3b82f6, #6366f1);
+    border-radius: 2px;
+  }
+  
+  .shipping-container h2 {
+    font-size: 1.4rem;
+    color: #1f2937;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .shipping-container p,
+  .shipping-container li {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #374151;
+  }
+  
+  .shipping-container ul {
+    margin-left: 24px;
+    list-style-type: disc;
+  }
+  
+  @media (max-width: 600px) {
+    .shipping-container {
+      padding: 24px 18px;
+      margin: 40px 16px;
+    }
+  
+    .shipping-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .shipping-container h2 {
+      font-size: 1.2rem;
+    }
+  
+    .shipping-container p,
+    .shipping-container li {
+      font-size: 0.95rem;
+    }
+  }
+  

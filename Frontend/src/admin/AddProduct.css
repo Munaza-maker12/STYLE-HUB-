@@ -1,0 +1,141 @@
+.add-product-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+.size-fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.size-hint {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.size-grid {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.size-card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 14px;
+  text-align: center;
+  min-width: 70px;
+  transition: all 0.2s;
+}
+
+.size-card--enabled {
+  border-color: #007bff;
+  background: #f0f6ff;
+}
+
+.size-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0;
+}
+
+.size-name {
+  font-size: 15px;
+}
+
+.size-qty-input {
+  width: 60px !important;
+  margin-top: 8px !important;
+  padding: 4px !important;
+  text-align: center;
+}
+
+.size-warning {
+  color: orange;
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: normal;
+}
+.add-product-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.add-product-form input,
+.add-product-form select,
+.add-product-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-product-form fieldset {
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.add-product-form legend {
+  font-weight: bold;
+}
+
+.add-product-form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product-form button:hover {
+  background: #0056b3;
+}
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.preview-item {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.preview-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 0 0 0 5px;
+}

@@ -1,0 +1,31 @@
+.auth_main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+.auth_item {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ui_Input {
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(181, 174, 174);
+  border-radius: 4px;
+  background-color: white;
+}
+
+.ui_Input:hover {
+  border: 1px solid rgb(23, 73, 238);
+}

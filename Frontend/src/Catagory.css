@@ -1,0 +1,101 @@
+/* .categories-container {
+  display: flex;
+  flex-wrap: wrap;        
+  gap: 25px;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 180px;
+  transition: transform 0.3s ease;
+}
+
+.category-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.category-card img:hover {
+  transform: scale(1.15);
+}
+
+.category-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.category-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  list-style: none;
+  color: #3b4344;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+ .categories-container {
+  display: flex;
+  flex-wrap: wrap;   /* ✅ Wrap allow karta hai ke neeche aa sake, lekin scroll nahi karega */
+  gap: 25px;
+  padding: 20px 0;
+  justify-content: center;  /* ✅ Centered rahega */
+  align-items: center;
+  list-style: none;
+  overflow: hidden; /* ✅ Scroll ko hata diya */
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 180px;
+  transition: transform 0.3s ease;
+}
+
+.category-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.category-card img:hover {
+  transform: scale(1.15);
+}
+
+.category-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.category-heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  list-style: none;
+  color: #3b4344;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

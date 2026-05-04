@@ -1,0 +1,13 @@
+.ui_Input {
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(181, 174, 174);
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+}
+
+.ui_Input:hover {
+  border: 1px solid rgb(23, 73, 238);
+}     
